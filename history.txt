@@ -1,0 +1,25 @@
+
+  384  git clone git@github.com:Mad-Deuce/lnx_git_hw12.git
+  385  ls -la
+  386  cd lnx_git_hw12
+  387  ls -la
+  388  git checkout -b feature
+  389  history
+  390  touch README.md
+  391  ls -la
+  392  git add README.md 
+  393  git status
+  394  git commit -m "add README.md"
+  395  git push --force -u origin feature
+  396  git commit --amend -m "add README.md ammend"
+  397  git checkout master
+  398  git status
+  399  git branch
+  400  git checkout main
+  401  git merge feature
+  402  history > history.txt
+  403  cat history.txt 
+  404  nano history.txt 
+  405  vim history.txt 
+  406  nano history.txt 
+  407  history > history.txt
